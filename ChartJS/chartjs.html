@@ -19,13 +19,21 @@
 </body>
 <script>
     const labels = [
+        '12:00',
+        '13:00',
+        '14:00',
+        '15:00',
+        '16:00',
+        '17:00',
+    ];
+    const labels2 = [
         'Janeiro',
         'Fevereiro',
         'Março',
         'Abril',
         'Maio',
         'Junho',
-];
+    ];
     const data = {
         labels: labels,
         datasets: [{
@@ -48,9 +56,9 @@
         data: data,
         options: {}
     }
-   
+
     const data2 = {
-        labels: labels,
+        labels: labels2,
         datasets: [{
             label: 'Temperatura',
             backgroundColor: 'rgb(255, 99, 132)',
